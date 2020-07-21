@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>APPLYING MAP AND FILTER FUNCTION ON ARRAY OF ELEMENTS!</h2>
+    <script>
+        x=prompt("ENTER AN ARRAY OF NUMBERS: ")
+        a=x.split(" ")
+        console.log(a)
+        let odd=a.filter((e)=>e%2!=0)
+        console.log("ARRAY OF ODD NUMBERS: "+odd)
+        let cube=odd.map((el)=>el**3)
+        console.log("CUBES OF ODD NUMBERS :" +cube)
+
+    </script>
+</body>
+</html>
